@@ -116,7 +116,7 @@
 // Get and display image
 - (void)displayImage {
 	if (_photo && _photoImageView.image == nil) {
-		
+		self.scrollEnabled = false;
 		// Reset
 		self.maximumZoomScale = 1;
 		self.minimumZoomScale = 1;
