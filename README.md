@@ -1,3 +1,11 @@
+In order to replace the libMWPhotoBrowser.a File with a new version follow these steps:
+
+1. Make your changes with X-Code to the native Code
+2. Open the containing folder with bash and execute "make"
+3. copy the libMWPhotoBrowser.a to the MWPhotoBrowserUnified-Binding Repo in the drallo-app/IOs/ folder.
+
+
+
 # MWPhotoBrowser
 
 [![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=mwaterfall&url=https://github.com/mwaterfall/MWPhotoBrowser&title=MWPhotoBrowser&language=&tags=github&category=software)
